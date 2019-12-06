@@ -1,0 +1,32 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "Advent of Code 2019 by Andrej and Leo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node -e \"require('./src/index.js').totalFuelRequirement()\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fairglen/aoc.git"
+  },
+  "author": "Andrej & Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fairglen/aoc/issues"
+  },
+  "homepage": "https://github.com/fairglen/aoc#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
+  }
+}
